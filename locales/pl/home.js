@@ -1,0 +1,18 @@
+export default {
+  freeShipping: 'Użyj kodu MINUS12',
+  freeShippingWorldwide: 'aby otrzymać darmową dostawę przy zakupie trzech lub więcej kubków',
+  service24h7days: 'jesteśmy dostępni 24/7',
+  helpForNew: 'nasz sklep jest do twojej dyspozycji',
+  specialOffers: 'słuchamy, gdy mówisz',
+  newSpecialOffers: 'dostosowujemy się do twoich potrzeb',
+  buildOwnCup: 'Zbuduj własny kubek',
+  personalizedMugsGraphic: 'Spersonalizowane kubki z grafiką na prezent',
+  novelty: 'Nowość',
+  personalize: 'Personalizuj',
+  uniqueGraphics: 'Wyjątkowa grafika',
+  uniqueText: 'Każdy z naszych kubków na zamówienie otrzymuje unikalny projekt graficzny, dzięki możliwości błyskawicznego personalizowania. Użytkownik nie musi tworzyć, czy też pozycjonować poszczególnych elementów na kubku – wszystko realizowane jest w tle przez aplikację, która pozwala uzyskać jak najlepszy możliwy efekt. Położyliśmy nacisk na jakość grafiki, dlatego też zaprojektowaliśmy od nowa każde tło, każdą z ras psów, wiele różnych postaci, które również można personalizować oraz każdy cytat. Prześledziliśmy najpopularniejsze rasy psów, aby nie zabrakło żadnych dostępnych w Polsce, ale narysowaliśmy również te bardziej egzotyczne, jak np. Łajki. Uwielbiamy psy, więc na pewno każdy ich wielbiciel znajdzie coś ciekawego dla siebie. Jesteśmy otwarci na wszelkie sugestie, więc jeżeli uważasz, że coś trzeba poprawić, albo masz własny pomysł na grafikę, daj nam znać przez formularz kontaktowy, mailem lub za pomocą telefonu. Chętnie zaprojektujemy coś specjalnie dla Ciebie! W planach mamy także stworzenie projektów dla sympatyków kotów. Mamy również interesujące projekty w głowie idealne dla motocyklistów. Zaprojektuj z nami swój spersonalizowany, zabawny kubek, który umili Ci poranną kawę i zawsze będzie ci przypominać o ulubionych chwilach z twoim zwierzakiem.',
+  personalizedMugs: 'Kubki personalizowane',
+  personalizedMugsText: 'Wiemy, jak istotną rolę pełnią niewielkie prezenty wręczane bliskim, dlatego w naszej ofercie znaleźć można personalizowane kubki, które są świetnym pomysłem prezentowym dla ważnej osoby. Kubek wykonywany na zamówienie to nie tylko gwarancja najlepszej jakości, ale także oryginalne i nietuzinkowe rozwiązanie. Oferujemy kubek z cytatem, z grafiką lub całkowicie spersonalizowane kubki według własnych preferencji. Niezwykłą popularnością cieszą się nasze kubki ze śmiesznym napisem, jak również ciekawie wyglądające kubki z psami, które mogą być spersonalizowane np. pod kątem ulubionej pory roku.',
+  bestGiftIdea: 'Najlepszy pomysł na prezent',
+  bestGiftIdeaText: 'Nie wiesz, co podarować bliskiej Ci osobie na prezent? Duży kubek to świetna opcja, zarówno praktyczna, jak i estetyczna. Podarunek dla faceta lub dla przyjaciółki w postaci spersonalizowanego przedmiotu pozwoli na wyrażenie swoich uczuć, a także pokazanie, że pamięta się o drobnych szczegółach, związanych z konkretną osobą. Jedna sztuka to za mało? Wybierz zestaw kubków na prezent, dzięki czemu obdarowana osoba będzie mogła posiadać niepowtarzalną kolekcję naczyń do picia z oryginalną grafiką. Postaw na nasze spersonalizowane kubki i zagwarantuj sobie oraz najbliższym najwyższą jakość produktów!',
+}

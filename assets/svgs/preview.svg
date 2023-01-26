@@ -1,0 +1,24 @@
+<svg
+  width="30"
+  height="25"
+  viewBox="12 10 22 22"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g opacity="1">
+    <path
+      d="M11 22C11 22 15 14 22 14C29 14 33 22 33 22C33 22 29 30 22 30C15 30 11 22 11 22Z"
+      stroke="#31A745"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M22 25C23.6569 25 25 23.6569 25 22C25 20.3431 23.6569 19 22 19C20.3431 19 19 20.3431 19 22C19 23.6569 20.3431 25 22 25Z"
+      stroke="#31A745"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>

@@ -1,0 +1,236 @@
+.shopping-cart-page .order__title {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.shopping-cart-page .order__title-wrapper {
+  gap: 0;
+}
+
+.shopping-cart-page .advantages {
+  padding-top: 52px;
+}
+
+.shopping-cart-page .advantages::after {
+  display: none;
+}
+
+.shopping-cart-page .seo {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .shopping-cart-page .order__title {
+    text-align: left;
+    max-width: unset;
+    margin-bottom: 20px;
+  }
+  .shopping-cart-page .seo {
+    display: block;
+  }
+  .shopping-cart-page .newsletter {
+    display: none;
+  }
+}
+
+.shopping-cart .quantity__wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.shopping-cart .summary-mobile {
+  margin-top: 50px;
+}
+
+.shopping-cart__delete {
+  background-color: transparent;
+  border: none;
+  opacity: 0.4;
+}
+
+.shopping-cart__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.shopping-cart__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.shopping-cart .summary-mobile__element {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shopping-cart .order-cost {
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.shopping-cart .order-cost__shipping {
+  color: #888888;
+  font-size: 18px;
+  margin-top: 18px;
+  text-transform: lowercase;
+}
+
+@media (min-width: 1000px) {
+  .shopping-cart {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 22px 30px rgba(0, 0, 0, 0.05), 0px 4px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 22px 30px rgba(0, 0, 0, 0.05), 0px 4px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    margin-bottom: 50px;
+  }
+  .shopping-cart__sum {
+    color: #31a745;
+    font-size: 34px;
+    line-height: 41px;
+  }
+  .shopping-cart .quantity__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+  .shopping-cart .summary-desktop b {
+    margin-top: 0;
+  }
+  .shopping-cart__item-name {
+    font-family: "Poppins", sans-serif;
+  }
+  .shopping-cart .summary-desktop--col5 .shopping-cart__sides {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%;
+    color: #a5a5a5;
+    font-weight: 500;
+  }
+  .shopping-cart__btns {
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    margin-top: 42px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .shopping-cart .order-cost__title {
+    font-family: "All Round Gothic";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.15px;
+  }
+  .shopping-cart .order-cost {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: right;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  .shopping-cart .order-cost__shipping {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .shopping-cart .summary-desktop--col5 .shopping-cart__sides {
+    width: 420px;
+  }
+}
+/*# sourceMappingURL=style-koszyk.css.map */
+
+//kupon rabatowy
+
+.coupon {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  label {
+    font-size: 12px;
+  }
+
+  .form__group {
+    max-width: 230px;
+    margin-top: 0;
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+
+  input[type="text"] {
+    border: 2px solid #888888;
+    width: 100%;
+    min-height: 52px;
+    max-width: 175px;
+  }
+}
+
+@media (max-width: 999px) {
+  .coupon {
+    margin-right: auto;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .coupon {
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+
+    label {
+      font-size: 16px;
+    }
+
+    .form__group {
+      max-width: 255px;
+      width: 100%;
+    }
+
+    input[type="text"] {
+      max-width: unset;
+    }
+  }
+}

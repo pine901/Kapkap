@@ -1,0 +1,58 @@
+@import "variables.scss";
+
+.thank-you {
+    margin-top: 78px;
+    margin-bottom: 33px;
+    text-align: center;
+    &__title {
+        font-weight: 600;
+        margin-bottom: 31px;
+        z-index: 4;
+        position: relative;
+        padding: 0 30px;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 30px;
+        z-index: 4;
+        position: relative;
+        max-width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 30px;
+    }
+    &__btn {
+        margin-top: 54px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 4;
+        position: relative;
+    }
+    &__img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__img-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .thank-you {
+        margin-top: 8vw;
+        margin-bottom: 0;
+        &__title {
+            font-size: 34px;
+            line-height: 41px;
+        }
+        &__img {
+            display: none;
+        }
+        &__img-desktop {
+            display: block;
+            margin-top: -18vw;
+            z-index: -1;
+        }
+    }
+}

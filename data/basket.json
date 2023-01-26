@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "backImageUrl": "",
+      "frontImageUrl": "",
+      "number": 1,
+      "price": 59.99,
+      "title": "Kubeczek nr 1"
+    },
+    {
+      "id": 2,
+      "backImageUrl": "",
+      "frontImageUrl": "",
+      "number": 1,
+      "price": 59.99,
+      "title": "Kubeczek nr 2"
+    }
+  ],
+  "total": 119.98
+}

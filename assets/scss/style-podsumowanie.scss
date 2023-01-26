@@ -1,0 +1,109 @@
+@import "variables.scss";
+
+.summary {
+    &__title {
+        margin-bottom: 39px;
+        margin-top: 46px;
+    }
+
+    &__heading {
+        font-family: $title-font;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 38px;
+    }
+
+    &__icon-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &__btn {
+        display: none;
+    }
+
+    &__info {
+        margin-bottom: 72px;
+    }
+
+    &__submit {
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    &__cart {
+        margin-left: -30px;
+        margin-right: -30px;
+        padding: 0 30px;
+        border: 2px solid #31a745;
+        filter: drop-shadow(0px 22px 30px rgba(0, 0, 0, 0.05)) drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.05));
+        border-radius: 24px;
+        margin-bottom: 50px;
+        background-color: $white;
+    }
+
+    .order-cost__shipping {
+        display: none;
+    }
+
+    .order-cost__title {
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1000px) {
+    .summary {
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__btn {
+            display: flex;
+            margin-top: 90px;
+        }
+
+        &__info {
+            margin-bottom: 0px;
+        }
+
+        &__cart {
+            border: 2px solid #31a745;
+            max-width: 810px;
+            width: 60%;
+            padding: 40px 75px;
+        }
+
+        .coupon {
+            justify-content: flex-end;
+        }
+
+        .order-cost {
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 47px;
+        }
+
+        .order-cost__title {
+            font-family: $title-font;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: unset;
+        }
+
+        .order-cost__shipping {
+            display: block;
+            color: $primary;
+            margin-top: 4px;
+        }
+
+        .order-cost__cost {
+            font-size: 48px;
+            margin-top: 3px;
+        }
+    }
+}

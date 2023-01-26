@@ -1,0 +1,142 @@
+@import "variables.scss";
+
+.post {
+    position: relative;
+    &__banner-wrapper {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    &__title {
+        margin: 20px 0;
+    }
+
+    &__heading {
+        font-weight: 400;
+        margin: 26px 0 12px;
+    }
+
+    &__content {
+        p,
+        ol {
+            margin-bottom: 20px;
+            letter-spacing: 0.15px;
+            color: rgb(128, 128, 128);
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+    }
+
+    &__two-col-img {
+        margin-bottom: 20px;
+        margin-top: 24px;
+        margin-left: -30px;
+        margin-right: -30px;
+        max-width: calc(100% + 60px);
+    }
+
+    &::after {
+        display: block;
+        content: "";
+        width: 97px;
+        height: 151px;
+        background-image:  url(/images/img/arrows-psot.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .container {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .post {
+        &__two-col {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            margin-top: 120px;
+        }
+
+        &__two-col-img {
+            margin: unset;
+            max-width: 50%;
+        }
+
+        .container {
+            max-width: 1470px;
+        }
+
+        &__heading {
+            margin-bottom: 27px;
+            margin-top: 70px;
+            font-size: 34px;
+            line-height: 41px;
+        }
+
+        &__title {
+            margin-bottom: 37px;
+            margin-top: 40px;
+        }
+
+        .text14 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
+
+//sekcja Wesprzyj naszą organizację i zamów kubek już dziś
+
+.cta__title {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    margin-bottom: 58px;
+    font-family: "All Round Gothic";
+}
+.cta {
+    margin-top: 78px;
+    margin-bottom: 95px;
+
+
+    &__buttons {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .cta {
+        &__buttons {
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .cta {
+        margin-top: 163px;
+        margin-bottom: 193px;
+    }
+
+            .cta__title {
+                margin-bottom: 48px;
+                font-size: 34px;
+                line-height: 41px;
+            }
+}

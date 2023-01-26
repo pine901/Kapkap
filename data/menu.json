@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Strona główna",
+    "link": "/"
+  },
+  {
+    "title": "Stwórz kubek",
+    "link": "/kubki/"
+  },
+  {
+    "title": "FAQ",
+    "link": "/faq"
+  },
+  {
+    "title": "O nas",
+    "link": "/o-nas"
+  },
+  {
+    "title": "Blog",
+    "link": "/blog"
+  },
+  {
+    "link": "/kontakt",
+    "title": "Kontakt"
+  }
+]

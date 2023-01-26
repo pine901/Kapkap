@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "dateCreated": "YYYY-MM-DD HH:MM:SS",
+      "title": "tytuł",
+      "author": "imię i nazwisko",
+      "views": 0, 
+      "comments": 0, 
+      "shortContent": "skrócona treść artykułu",
+      "imageURL": "adres url obrazka związanego z artykułem"
+    },
+    {
+      "dateCreated": "YYYY-MM-DD HH:MM:SS",
+      "title": "tytuł",
+      "author": "imię i nazwisko",
+      "views": 0, 
+      "comments": 0, 
+      "shortContent": "skrócona treść artykułu 22",
+      "imageURL": "adres url obrazka związanego z artykułem 22"
+    }
+  ]
+}

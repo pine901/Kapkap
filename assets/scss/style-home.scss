@@ -1,0 +1,722 @@
+@import "variables.scss";
+
+//header
+.home-header {
+    position: relative;
+    width: 100%;
+    margin-top: -2px;
+
+    &__wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    &__banner {
+        width: 100%;
+
+        &--mobile {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        &--desktop {
+            display: none;
+        }
+    }
+
+    &__text-wrapper {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__text {
+        color: $white;
+        text-align: center;
+
+        &--desktop {
+            display: none;
+        }
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 14px;
+        transform: translate(0, 50%);
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 6;
+        position: relative;
+    }
+
+    &::after {
+        background-image: url(/images/img/white-lines.svg);
+        display: block;
+        content: "";
+        height: 330px;
+        width: 330px;
+        position: absolute;
+        background-repeat: no-repeat;
+        bottom: -53%;
+    }
+
+    &::before {
+        background-image: url(/images/img/header-white-dots.svg);
+        height: 98px;
+        width: 135px;
+        display: block;
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: -30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-header {
+        margin-top: -45px;
+    }
+}
+
+@media (max-width: 360px) {
+    .home-header {
+        &__wrapper {
+            background-color: rgba(0, 0, 0, 0.36);
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .home-header {
+        &__text-wrapper {
+            margin-left: 0;
+            margin-top: 5.4vw;
+        }
+        &__banner {
+            width: 100%;
+
+            &--mobile {
+                display: none;
+            }
+
+            &--desktop {
+                display: block;
+            }
+        }
+        &__title {
+            text-align: left;
+        }
+        &__text {
+            text-align: left;
+            &--mobile {
+                display: none;
+            }
+            &--desktop {
+                display: block;
+            }
+        }
+        .btn {
+            margin-left: 0;
+        }
+        &__wrapper {
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-header {
+        &__text-wrapper {
+            max-width: 630px;
+        }
+
+        &::before {
+            background-image: url(/images/img/home-header-dots-desktop.svg);
+            height: 140px;
+            width: 175px;
+            right: unset;
+            left: 0;
+            top: 16%;
+            opacity: 0.3;
+        }
+
+        &::after {
+            right: 0;
+            left: unset;
+            bottom: -25%;
+            width: 200px;
+        }
+    }
+}
+
+@media (min-width: 1770px) {
+    .home-header {
+        &::before {
+            opacity: 1;
+        }
+    }
+}
+
+//home slider - sekcja Przykładowe realizacje
+.home-slider {
+    margin-top: 70px;
+
+    .swiper {
+        padding-left: 10px;
+        overflow: hidden;
+        margin-left: 30px;
+    }
+
+    &__card {
+        background: #ffffff;
+        box-shadow: 0px 14.6667px 15px rgba(0, 0, 0, 0.05), 0px 2.66667px 3.33333px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+    }
+
+    &__text {
+        font-family: $title-font;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 24px;
+    }
+
+    &__img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 27px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 33px;
+    }
+
+    .swiper-wrapper {
+        padding: 30px 0 50px 0px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .home-slider {
+        .swiper {
+            margin-left: 0;
+            padding: 0 22px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-slider {
+        position: relative;
+
+        .swiper-pagination {
+            display: none;
+        }
+
+        .swiper {
+            max-width: 1000px;
+        }
+
+
+        .slick-arrow.slick-prev,
+        .slick-arrow.slick-next,
+        .swiper-button-prev,
+        .swiper-button-next {
+            opacity: 0.2;
+            position: absolute;
+            top: 50%;
+            min-width: 18px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .slick-arrow.slick-prev,
+        .swiper-button-prev {
+            left: 2em;
+        }
+
+        .slick-arrow.slick-next,
+        .swiper-button-next {
+            right: 2em;
+        }
+    }
+}
+
+@media (min-width: 1450px) {
+    .home-slider {
+        margin-top: 160px;
+
+        .swiper {
+            max-width: 1200px;
+        }
+
+        .swiper-button-prev {
+            left: 4em;
+        }
+
+        .swiper-button-next {
+            right: 4em;
+        }
+    }
+}
+
+@media (min-width: 1700px) {
+    .home-slider {
+        .swiper {
+            max-width: 1400px;
+        }
+
+        .swiper-button-prev {
+            left: 6em;
+        }
+
+        .swiper-button-next {
+            right: 6em;
+        }
+    }
+}
+
+
+// sekcja Wyjątkowa grafika
+.home-banner {
+    position: relative;
+    padding-top: 30px;
+    margin-top: 85px;
+
+    &__text-wrapper {
+        width: 100%;
+
+        &::after {
+            display: block;
+            content: "";
+            background-image: url(/images/img/xxx.svg);
+            width: 94px;
+            height: 25px;
+            background-repeat: no-repeat;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 22px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        color: $white;
+    }
+
+    &__img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+        width: 330px;
+    }
+
+    &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 74%;
+        border-radius: 0px 0px 320px 320px;
+        background-color: $primary;
+    }
+
+    &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: -50px;
+        right: 0;
+        width: 60px;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-image: url(/images/img/green-banner-before.svg);
+    }
+}
+
+@media (min-width: 768px) {
+    .home-banner {
+        padding: 30px;
+        padding-bottom: 0;
+
+        &__text-wrapper {
+            max-width: 810px;
+            margin-top: 40px;
+
+            &::after {
+                margin-right: 0;
+                margin-top: 60px;
+                width: 150px;
+                background-size: cover;
+                height: 41px;
+            }
+        }
+
+        &__wrapper {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        &::after {
+            border-radius: 0px 500px 500px 0px;
+            height: 100%;
+            width: 82%;
+        }
+
+        &__img {
+            margin-top: -3em;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .home-banner {
+        &__img {
+            width: 570px;
+        }
+
+        &__title {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (min-width: 1800px) {
+    .home-banner {
+        &::before {
+            background-image: url(/images/img/white-dots.svg);
+            height: 164px;
+            width: 240px;
+            left: 0;
+            right: unset;
+            top: 25%;
+        }
+    }
+}
+
+//sekcja Najlepszy pomysł na prezent
+.gift {
+    margin-bottom: 76px;
+
+    &__bg {
+        background-color: $primary;
+        padding: 46px 30px 60px;
+        border-radius: 0px 0px 240px 240px;
+    }
+
+    &__title {
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        color: $white;
+        opacity: 0.9;
+        letter-spacing: 0.15px;
+    }
+
+    &__text-wrapper {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn {
+        border: 1px solid $white;
+        margin-top: 41px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__img-wrapper {
+        position: relative;
+
+        &::before {
+            display: block;
+            content: "";
+            background-image: url(/images/img/gift-dots.svg);
+            width: 126px;
+            height: 155px;
+            position: absolute;
+            left: -30px;
+            top: 1em;
+            transform: scale(0.4);
+        }
+    }
+
+    &__x {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .gift {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        align-items: center;
+
+        &__bg {
+            max-width: 700px;
+            width: 100%;
+            border-radius: 500px 0 0 500px;
+            display: flex;
+            align-items: center;
+            padding-left: 5em;
+            gap: 5vw;
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+
+        &__text-wrapper {
+            max-width: 450px;
+            margin-left: 0;
+        }
+
+        &__title {
+            max-width: 560px;
+        }
+
+        &__img-wrapper {
+            position: absolute;
+            left: 0;
+            z-index: -1;
+            height: 100%;
+        }
+
+        &__img {
+            height: 100%;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        &__x {
+            display: block;
+        }
+
+        .btn {
+            background-color: $white;
+            color: $primary;
+            margin-left: 0;
+
+            path {
+                stroke: $primary;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .gift {
+        &__bg {
+            max-width: 1120px;
+        }
+
+        &__text-wrapper {
+            max-width: 623px;
+        }
+
+        &__img-wrapper {
+            &::before {
+                transform: unset;
+                left: 2em;
+                top: 4em;
+            }
+        }
+    }
+}
+
+// sekcja Kubki personalizowane
+.mugs {
+    margin-top: 100px;
+    margin-bottom: 53px;
+    background-image: url(/images/img/mugs-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__img {
+        margin-bottom: 50px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__title {
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        opacity: 0.6;
+        padding-bottom: 52px;
+    }
+
+    &::after {
+        background-image: url(/images/img/mugs-dots.svg);
+        display: block;
+        content: "";
+        width: 175px;
+        height: 40px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(0, 15px);
+    }
+
+    &__img-wrapper {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            display: block;
+            content: "";
+            width: 250px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.28);
+            border-radius: 50%;
+            filter: blur(18px);
+            bottom: -1em;
+            left: 25%;
+            z-index: -1;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .mugs {
+        &__img-wrapper {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .mugs {
+        background-image: url(/images/img/mugs-bg-desktop.png);
+        max-width: 1000px;
+        margin-left: auto;
+        padding: 5em 0;
+        position: relative;
+        margin-bottom: 7vw;
+
+        &::after {
+            top: 2em;
+            position: absolute;
+            left: 34.5%;
+            transform: scale(1.3);
+        }
+
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8vw;
+        }
+
+        &__img {
+            margin-left: unset;
+            margin-right: unset;
+            width: 450px;
+        }
+
+        &__text-wrapper {
+            max-width: 440px;
+            margin-left: 0;
+        }
+
+        &__img-wrapper {
+            &::after {
+                z-index: 1;
+                filter: blur(14px);
+                bottom: -1em;
+                left: 25%;
+                opacity: 0.4;
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .mugs {
+        &__text-wrapper {
+            max-width: 540px;
+        }
+        &__img {
+            margin-bottom: 0;
+            width: 510px;
+        }
+        &__text {
+            opacity: 0.8;
+        }
+        &__img-wrapper {
+            margin-left: -7em;
+            margin-top: -6em;
+
+            &::after {
+                z-index: 1;
+                filter: blur(14px);
+                bottom: -5em;
+                left: 25%;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .mugs {
+        background-image: none;
+        background: rgba(237, 238, 243, 0.5);
+        border-radius: 500px 0px 0px 500px;
+        max-width: 84%;
+
+        &__text {
+            max-width: 737px;
+            padding-bottom: 0;
+        }
+
+        &__text-wrapper {
+            max-width: 750px;
+        }
+
+        &__img-wrapper {
+            margin-left: -11em;
+        }
+    }
+}

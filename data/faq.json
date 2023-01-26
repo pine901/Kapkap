@@ -1,0 +1,54 @@
+[
+  {
+    "question": "Kubek jest super, ale chcę go zwrócić.",
+    "answer": "Każdy kubek możesz reklamować, jeżeli przy odbiorze stwierdzisz, że występują w nim wady (np. uszczerbienie, inne niż zamówione grafiki). W takim przypadku z przyjemnością przygotujemy dla ciebie lepszy kubek lub zwrócimy ci pieniądze.<br />Jeżeli jednak się rozmyśliłeś(aś) z zakupem, niestety nie przyjmujemy zwrotów spersonalizowanych kubków zgodnie z Ustawą o prawach konsumenta:<br />Art. 38 Prawo odstąpienia od umowy zawartej poza lokalem przedsiębiorstwa lub na odległość nie przysługuje konsumentowi w odniesieniu do umów:<br />(...)<br />3) w której przedmiotem świadczenia jest rzecz nieprefabrykowana, wyprodukowana według specyfikacji konsumenta lub służąca zaspokojeniu jego zindywidualizowanych potrzeb;"
+  },
+  {
+    "question": "Czy kubek można myć w zmywarce?",
+    "answer": "Producent kubków zaznacza, że kubek jest przeznaczony do mycia ręcznego, natomiast możliwe jest jego sporadyczne mycie w zmywarce (producent wspomina o maksymalnie kilkudziesięciu myciach w zmywarce). Z naszych obserwacji wynika jednak, że mycie w zmywarce powoduje sukcesywne blaknięcie kolorów, zatem osobiście nie polecamy zarówno mycia w zmywarce, jak i trzymanie kubka stale w nasłonecznionym miejscu."
+  },
+  {
+    "question": "Chciałabym (chciałbym) dodać mojego psa/królika/pingwina na kubek, ale nie widzę takiej opcji.",
+    "answer": "Zapraszamy do kontaktu mailowego na kontakt@kapkap.eu. Prosimy o wysłanie zdjęcia obiektu, który chcielibyście Państwo dodać. Postaramy się w terminie tygodnia przygotować odpowiedni rysunek bazujący na przesłanym materiale."
+  },
+  {
+    "question": "Jak długo muszę czekać na mój kubek?",
+    "answer": "Przygotowujemy kubek i wysyłamy go w ciągu maksymalnie 24 godzin od złożenia zamówienia. W zależności od możliwości przewoźnika, dostawa następuje w ciągu kolejnych 24 godzin. W okresach natężonego ruchu kurierskiego (np. święta) okres oczekiwania może się przedłużyć."
+  },
+  {
+    "question": "Czy mogę odebrać kubek osobiście?",
+    "answer": "Jest to możliwe. Prosimy o kontakt telefoniczny w takim przypadku.Warunkiem koniecznym jest zamówienie i wcześniejsze opłacenie kubka przez internet. Niestety nie przyjmujemy gotówki, ani kart płatniczych przy odbiorze osobistym."
+  },
+  {
+    "question": "Czy wysyłacie kubki za granicę?",
+    "answer": "W chwili obecnej nie wysyłamy kubków poza Polskę przy zamówieniach przez sklep internetowy.Zadzwoń do nas, jeżeli zależy Ci na dostawie za granicę. Na pewno razem coś wymyślimy."
+  },
+  {
+    "question": "Chciałabym/chciałbym zamówić większą partię. Czy mogę liczyć na upust?",
+    "answer": "Z przyjemnością porozmawiamy na ten temat. Po poznaniu szczegółów możemy ustalić zakreswspółpracy oraz cenę za kubki."
+  },
+  {
+    "question": "Znalazłem błąd dotyczący rasy psa, zdjęcia, czy też inny błąd techniczny.",
+    "answer": "Skontakuj się proszę z nami. Zależy nam na najwyższej jakości świadczonych usług, więcTwoja pomoc ma dla nas duże znaczenie!"
+  },
+  {
+    "question": "Chciałabym/Chciałbym spersonalizować kubek w inny sposób",
+    "answer": "Jest to możliwe jedynie na indywidulne zamówienie. Skontaktuj się z nami w tej sprawie,a z przyjemnością przygotujemy dla ciebie coś zupełnie unikalnego."
+  },
+  {
+    "question": "Jestem grafikiem/twórcą. Czy istnieje możliwość współpracy?",
+    "answer": "Jesteśmy otwarci na wszelkie propozycje. Zapraszamy do kontaktu."
+  },
+  {
+    "question": "I speak only English/German/French. Can I call you to discuss my order?",
+    "answer": "Sure. The best option is to text us. We will call you back as soon as possible."
+  },
+  {
+    "question": "Je ne parle que l'anglais/allemand/français. Puis-je vous appeler pour discuter de ma commande ?",
+    "answer": "Bien sûr, la meilleure option est de nous envoyer un SMS. Nous vous rappellerons dès que possible."
+  },
+  {
+    "question": "Ich spreche nur Englisch/Deutsch/Französisch. Kann ich Sie anrufen, um meine Bestellung zu besprechen?",
+    "answer": "Sicher. Die beste Möglichkeit ist, uns eine SMS zu schreiben. Wir rufen Sie dann so schnell wie möglich zurück."
+  }
+]

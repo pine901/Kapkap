@@ -1,0 +1,3 @@
+assets/scss/**/*.scss
+assets/scss/*.scss
+node_modules/**/_*.scss

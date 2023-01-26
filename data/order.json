@@ -1,0 +1,37 @@
+{
+  "orderId": 1,
+  "status": "",
+  "products": [
+    {
+      "id": 1,
+      "backImageUrl": "http://vifus.webd.pl/kubek.png",
+      "frontImageUrl": "http://vifus.webd.pl/kubek.png",
+      "backThumbnail": "http://vifus.webd.pl/kubek.png",
+      "number": 1,
+      "price": 59.99,
+      "title": "Kubeczek nr 1"
+    },
+    {
+      "id": 2,
+      "backImageUrl": "http://vifus.webd.pl/kubek.png",
+      "frontImageUrl": "http://vifus.webd.pl/kubek.png",
+      "backThumbnail": "http://vifus.webd.pl/kubek.png",
+      "number": 1,
+      "price": 59.99,
+      "title": "Kubeczek nr 2"
+    }
+  ],
+  "delivery": {
+    "name": "test",
+    "address": "słoneczna 8",
+    "city": "Warszawa",
+    "zip": "00-222"
+  },
+  "payment": {
+    "method": "TRANSFER",
+    "orderTotal": 120,
+    "symbol": "PLN"
+  },
+  "totalPrice": 59.99,
+  "clientTime": "2021-10-19 15:00:00"
+}

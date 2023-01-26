@@ -1,0 +1,25 @@
+.categoryBox {
+	padding: 50px;
+	
+	.productBoxBg {
+		background: #f8f8f8;
+		
+		.productBox {
+			display: block;
+			width: 100%;
+
+			.productConfBox {
+				float: left;
+				width: calc(50% - 30px);
+				background: #fff;
+				height: 730px;
+			}
+			
+			.productViewBox {
+				float: right;
+				width: calc(50% - 30px);
+			}
+		}
+	}
+
+}
